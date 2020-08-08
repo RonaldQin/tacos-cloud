@@ -40,7 +40,7 @@ public class OrderController {
 		}
 //		log.info("Order submitted: " + order);
 		orderRepo.save(order);
-		sessionStatus.setComplete();
+		sessionStatus.setComplete(); // 重置session
 		return "redirect:/";
 	}
 }
