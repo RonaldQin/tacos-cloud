@@ -1,4 +1,5 @@
 2.5 选择视图模版库
+使用SimleJdbcInsert插入数据
 3.2 使用Spring Data JPA持久化数据
 4.2 配置Spring Security
 
